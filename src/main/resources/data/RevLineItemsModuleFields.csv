@@ -1,0 +1,19 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue
+name,div,css,.fld_name.detail div,input,css,.fld_name.edit input,name,null,null,null,Computer,,a,css,.fld_name detail a
+relOpportunityName,a,css,.fld_opportunity_name.detail a,a,css,.fld_opportunity_name.edit a,opportunity_name,null,null,null,IBM Sale - 100 units,select,a,css,.fld_opportunity_name.detail a
+expectedCloseDate,span,css,.fld_date_closed.detail span,input,css,.fld_date_closed.edit input,expected_close_date,null,null,null,7/24/13,,span,css,.fld_date_closed.detail
+likelyCase,span,css,.fld_date_closed.detail,input,css,.fld_likely_case.edit input,likely_case,null,null,null,100,,div,css,.fld_likely_case.detail div
+probability,span,css,.fld_probability.detail,input,css,.fld_probability.edit input,probability,null,null,null,,,div,css,.fld_probabbility.detail div
+salesStage,div,css,.fld_sales_stage.detail div,a,css,.fld_sales_stage.edit a,sales_stage,null,null,null,,select,div,css,.fld_sales_stage.detail div
+product,null,null,null,a,css,.fld_product_template_name.edit a,product,null,null,null,,select,a,css,.fld_product_template_name.detail a
+category,null,null,null,a,css,.fld_category_name.edit a,category,null,null,null,,select,a,css,.fld_category_name.detail a
+quantity,span,css,.fld_quantity.detail,input,css,.fld_quantity.edit Input,quantity,null,null,null,,,div,css,.fld_quantity.detail div
+unitPrice,span,css,.fld_discount_price.detail,input,css,.fld_discount_price.edit input,unit_price,null,null,null,,,div,css,.fld_discount_price.detail div
+discountPrice,span,css,.fld_discount_amount.detail,input,css,.fld_discount_amount.edit input,discount_price,null,null,null,,,div,css,.fld_discount_amount.detail div
+bestCase,span,css,.fld_best_case.detail,input,css,.fld_best_case.edit input,best_case,null,null,null,,,div,css,.fld_best_cse.detail div
+worstCase,span,css,.fld_worst_case.detail,input,css,.fld_worst_case.edit input,worst_case,null,null,null,,,div,css,.fld_worst_case.detail div
+nextStep,div,css,.fld_next_ste. detail div,input,css,.fld_next_step.edit input,next_step,null,null,null,,,div,css,.fld_nest_step.detail div
+type,div,css,.fld_product_type.detail div,a,css,.fld_product_type.edit a,type,null,null,null,,select,div,css,.fld_product_type.detail div
+leadSource,div,css,.fld_lead_source.detail div,a,css,.fld_lead_source.edit a,lead_source,null,null,null,,select,div,css,.fld_lead_source.detail div
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit a,assigned_user_name,null,null,null,,select,div,css,.fld_team_name.detail div
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team,null,null,null,,select,a,css,.fld_assigned_user_namet.detail a

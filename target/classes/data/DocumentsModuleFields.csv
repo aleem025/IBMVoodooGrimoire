@@ -1,0 +1,6 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+documentName,span,id,document_name,input,id,document_name,document_name,null,null,null,mydocument,
+fileNameFile,span,id,filename_file,input,id,filename_file,doc_url,null,null,null,myDocument.txt,
+description,span,id,description,textarea,id,description,description,null,null,null,This is the document description,
+categoryID,null,null,null,select,id,category_id,category_id,null,null,null,Marketing,
+subCategoryID,null,null,null,select,id,subcategory_id,sub_category_id,null,null,null,FAQ,

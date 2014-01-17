@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="142.613" errors="2" skipped="0" tests="2" name="com.sugarcrm.test.accounts.Accounts_17167">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aaf/ibm/VoodooGrimoire"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/aaf/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5212728238701061818.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.8.0-34-generic"/>
+    <property name="user.home" value="/home/aaf"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="aaf"/>
+    <property name="java.class.path" value="/home/aaf/.eclipse/org.eclipse.platform_4.3.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/bundles/263/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/aaf/ibm/VoodooGrimoire/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/home/aaf/.eclipse/org.eclipse.platform_4.3.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/bundles/263/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="71.306" classname="com.sugarcrm.test.accounts.Accounts_17167" name="execute">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.sugarcrm.sugar.WsRestV10.getRecords(WsRestV10.java:208)
+	at com.sugarcrm.sugar.WsRestV10.getRecordsIds(WsRestV10.java:223)
+	at com.sugarcrm.sugar.WsRestV10.getTotalCount(WsRestV10.java:284)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.create(RecordsModule.java:270)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.create(RecordsModule.java:229)
+	at com.sugarcrm.test.accounts.Accounts_17167.setup(Accounts_17167.java:17)
+	at com.sugarcrm.test.SugarTest.baseSetup(SugarTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>Dec 18, 2013 5:08:49 PM com.sugarcrm.test.SugarTest baseSetup
+INFO: Setting up SugarTest...
+Dec 18, 2013 5:08:49 PM com.sugarcrm.sugar.VoodooUtils launchApp
+INFO: Launching app...
+Dec 18, 2013 5:08:49 PM com.sugarcrm.candybean.automation.VInterface start
+INFO: Starting automation interface with type: CHROME
+Dec 18, 2013 5:08:49 PM com.sugarcrm.candybean.automation.VInterface getWebDriver
+INFO: chromeDriverLogPath: ./log/chromedriver.log
+Dec 18, 2013 5:08:49 PM com.sugarcrm.candybean.automation.VInterface getWebDriver
+INFO: chromeDriverPath: ./lib/chromedriver-linux32
+Dec 18, 2013 5:08:49 PM com.sugarcrm.candybean.automation.VInterface getWebDriver
+INFO: Instantiating Chrome with:
+    log path:./log/chromedriver.log
+    driver path: ./lib/chromedriver-linux32
+Starting ChromeDriver (v2.2) on port 11337
+Dec 18, 2013 5:08:51 PM com.sugarcrm.candybean.automation.VInterface go
+INFO: Going to URL and switching to window: http://172.30.2.44/SugarUlt
+Dec 18, 2013 5:08:53 PM com.sugarcrm.candybean.automation.VInterface maximize
+INFO: Maximizing window
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.VoodooUtils launchApp
+INFO: App launched.
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.AccountsModule init
+INFO: Init Accounts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.BugsModule init
+INFO: Init Bugs...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.ContactsModule init
+INFO: Init Contacts...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.OpportunitiesModule init
+INFO: Init Opportunities...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.RevLineItemsModule init
+INFO: Init Revenue Line Items...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.LeadsModule init
+INFO: Init Leads...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetsModule init
+INFO: Init Targets...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TargetListsModule init
+INFO: Init TargetLists...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CasesModule init
+INFO: Init Cases...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.TasksModule init
+INFO: Init Tasks...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.NotesModule init
+INFO: Init Notes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CampaignsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.DocumentsModule init
+INFO: Init Documents...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.QuotesModule init
+INFO: Init Quotes...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.MeetingsModule init
+INFO: Init Campaigns...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.sugar.modules.CallsModule init
+INFO: Init Calls...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.test.SugarTest baseSetup
+INFO: Setting up Accounts_17167...
+Dec 18, 2013 5:08:53 PM com.sugarcrm.candybean.configuration.Configuration setValue
+INFO: Set key value property: {datasource.csv.baseDir, src/test/resources/data}
+Dec 18, 2013 5:08:58 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5042ms, 5042ms elapsed so far.
+Dec 18, 2013 5:09:03 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5051ms, 10093ms elapsed so far.
+Dec 18, 2013 5:09:08 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5001ms, 15095ms elapsed so far.
+Dec 18, 2013 5:09:08 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 15095ms for &lt;a css=&quot;#userActions a&quot; /&gt;.
+Dec 18, 2013 5:09:08 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 13ms.
+Dec 18, 2013 5:09:08 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:08 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;username&quot; /&gt; became visible in 44ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl set
+INFO: Setting &lt;input name=&quot;username&quot; /&gt; to admin
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;username&quot; /&gt; became visible in 29ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 9ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;username&quot; /&gt; became visible in 35ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl getAttribute
+INFO: Selenium: getting attribute: type for control: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;username&quot; /&gt; became visible in 28ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl sendString
+INFO: Selenium: sending string: admin to control: VControl(VHook(NAME,username))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl set
+INFO: Setting &lt;input name=&quot;password&quot; /&gt; to asdf
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;password&quot; /&gt; became visible in 58ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;password&quot; /&gt; became visible in 28ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl getAttribute
+INFO: Selenium: getting attribute: type for control: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;input name=&quot;password&quot; /&gt; became visible in 27ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl sendString
+INFO: Selenium: sending string: asdf to control: VControl(VHook(NAME,password))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl click
+INFO: Clicking &lt;a name=&quot;login_button&quot; /&gt;.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 19ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,login_button))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(NAME,login_button))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;a name=&quot;login_button&quot; /&gt; became visible in 56ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl click
+INFO: Selenium: clicking on control: VControl(VHook(NAME,login_button))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 22ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:09 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:10 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:11 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:11 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 290ms.
+Dec 18, 2013 5:09:11 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 56ms.
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:12 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 237ms.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:13 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:14 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:15 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:16 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 9ms.
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:17 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:18 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:19 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:20 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:21 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:21 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:22 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:23 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:24 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:25 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:26 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:27 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:28 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:29 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:30 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 17ms.
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:31 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:32 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 13ms.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 13ms.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:33 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 11ms.
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:34 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 10ms.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:35 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:36 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:37 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:38 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:39 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:39 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 250ms via thread sleep.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 7ms.
+Dec 18, 2013 5:09:39 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:44 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5037ms, 5037ms elapsed so far.
+Dec 18, 2013 5:09:49 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5042ms, 10079ms elapsed so far.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 5055ms, 15135ms elapsed so far.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Waited 15135ms for &lt;div css=&quot;#alerts .cancel&quot; /&gt;.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts .close))
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl click
+INFO: Clicking &lt;a css=&quot;#alerts .close&quot; /&gt;.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts .close))
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 4ms.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts .close))
+Dec 18, 2013 5:09:54 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;a css=&quot;#alerts .close&quot; /&gt; became visible in 25ms.
+Dec 18, 2013 5:09:54 PM com.sugarcrm.candybean.automation.control.VControl click
+INFO: Selenium: clicking on control: VControl(VHook(CSS,#alerts .close))
+Dec 18, 2013 5:09:54 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 500ms via thread sleep.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,#alerts))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(XPATH,//a[@data-original-title = &apos;Quick Create&apos;]))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(XPATH,//a[@data-original-title = &apos;Quick Create&apos;]))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;a xpath=&quot;//a[@data-original-title = &apos;Quick Create&apos;]&quot; /&gt; became visible in 41ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 12ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 6ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,.headerpane))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForElement
+INFO: Find took 5ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.control.VControl isDisplayed
+INFO: Selenium: determining if control is visible: VControl(VHook(CSS,.headerpane))
+Dec 18, 2013 5:09:55 PM com.sugarcrm.sugar.VoodooControl waitForVisible
+INFO: &lt;div css=&quot;.headerpane&quot; /&gt; became visible in 41ms.
+Dec 18, 2013 5:09:55 PM com.sugarcrm.candybean.automation.VInterface pause
+INFO: Pausing for 3000ms via thread sleep.
+Dec 18, 2013 5:09:58 PM com.sugarcrm.sugar.modules.RecordsModule$Api create
+INFO: Maps ready.  Creating 1 records.
+Dec 18, 2013 5:09:58 PM com.sugarcrm.sugar.WsRestV10 loadBasicParams
+INFO: REST entry point = http://172.30.2.44/SugarUlt/rest/v10
+java.lang.RuntimeException: Failed : HTTP error code : 404
+	at com.sugarcrm.candybean.webservices.WS.httpErrorSimpleCheckHttp(WS.java:215)
+	at com.sugarcrm.candybean.webservices.WS.requestIt(WS.java:139)
+	at com.sugarcrm.candybean.webservices.WS.request(WS.java:92)
+	at com.sugarcrm.sugar.WsRestV10.postRequest(WsRestV10.java:132)
+	at com.sugarcrm.sugar.WsRestV10.getRecords(WsRestV10.java:205)
+	at com.sugarcrm.sugar.WsRestV10.getRecordsIds(WsRestV10.java:223)
+	at com.sugarcrm.sugar.WsRestV10.getTotalCount(WsRestV10.java:284)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.create(RecordsModule.java:270)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.create(RecordsModule.java:229)
+	at com.sugarcrm.test.accounts.Accounts_17167.setup(Accounts_17167.java:17)
+	at com.sugarcrm.test.SugarTest.baseSetup(SugarTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Dec 18, 2013 5:09:59 PM com.sugarcrm.test.SugarTest baseCleanup
+INFO: Cleaning up SugarTest...
+Dec 18, 2013 5:09:59 PM com.sugarcrm.test.SugarTest baseCleanup
+INFO: Cleaning up Accounts_17167...
+Dec 18, 2013 5:10:00 PM com.sugarcrm.sugar.WsRestV10 loadBasicParams
+INFO: REST entry point = http://172.30.2.44/SugarUlt/rest/v10
+java.lang.RuntimeException: Failed : HTTP error code : 404
+	at com.sugarcrm.candybean.webservices.WS.httpErrorSimpleCheckHttp(WS.java:215)
+	at com.sugarcrm.candybean.webservices.WS.requestIt(WS.java:139)
+	at com.sugarcrm.candybean.webservices.WS.request(WS.java:92)
+	at com.sugarcrm.sugar.WsRestV10.postRequest(WsRestV10.java:132)
+	at com.sugarcrm.sugar.WsRestV10.getRecords(WsRestV10.java:205)
+	at com.sugarcrm.sugar.WsRestV10.getRecordsIds(WsRestV10.java:223)
+	at com.sugarcrm.sugar.WsRestV10.getTotalCount(WsRestV10.java:284)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.deleteAll(RecordsModule.java:324)
+	at com.sugarcrm.test.accounts.Accounts_17167.cleanup(Accounts_17167.java:47)
+	at com.sugarcrm.test.SugarTest.baseCleanup(SugarTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase time="71.307" classname="com.sugarcrm.test.accounts.Accounts_17167" name="execute">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.sugarcrm.sugar.WsRestV10.getRecords(WsRestV10.java:208)
+	at com.sugarcrm.sugar.WsRestV10.getRecordsIds(WsRestV10.java:223)
+	at com.sugarcrm.sugar.WsRestV10.getTotalCount(WsRestV10.java:284)
+	at com.sugarcrm.sugar.modules.RecordsModule$Api.deleteAll(RecordsModule.java:324)
+	at com.sugarcrm.test.accounts.Accounts_17167.cleanup(Accounts_17167.java:47)
+	at com.sugarcrm.test.SugarTest.baseCleanup(SugarTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>

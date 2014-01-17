@@ -1,0 +1,10 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue
+userName,span,css,#user_name,input,id,user_name,user_name,null,null,null,chris,null,null,null,null
+firstName,null,null,null,input,id,first_name,first_name,null,null,null,Chris,null,null,null,null
+lastName,null,null,null,input,id,last_name,last_name,null,null,null,Oliver,null,null,null,null
+fullName,span,css,#full_name,null,null,null,full_name,null,null,null,Chris Oliver,null,null,null,null
+emailAddress,a,css,#email_span a,input,id,Users0emailAddress0,null,null,null,null,chris.oliver@example.com,null,null,null,null
+newPassword,null,null,null,input,id,new_password,password,null,null,null,chris,null,null,null,null
+confirmPassword,null,null,null,input,id,confirm_pwd,null,null,null,null,chris,null,null,null,null
+password,null,null,null,null,null,null,null,null,null,null,chris,null,null,null,null
+timeZone,null,null,null,null,null,null,null,null,null,null,America/Los Angeles (GMT-8:00),null,null,null,null

@@ -1,0 +1,13 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+name,div,css,.fld_name.detail div,input,css,.fld_name.edit input[name='name'],name,null,null,null,IBM Sale - 100 units,
+nextStep,div,css,.fld_next_step.detail div,input,css,.fld_next_step.edit input[name='next_step'],nextStep,null,null,null,Close,
+description,span,css,.textarea-text.fld_description.detail,textarea,css,.textarea-text.fld_description.edit textarea[name='description'],description,null,null,null,Good Opp,
+relAccountName,a,css,.fld_account_name.detail a,a,css,.fld_account_name.edit a,account_name,null,null,null,Aperture Laboratories,select
+expectedCloseDate,span,css,.fld_date_closed.detail,null,null,null,date_closed,null,null,null,,
+oppAmount,span,css,.fld_amount.detail,null,null,null,opportunity_amount,null,null,null,,
+bestCase,span,css,.fld_best_case.detail,null,null,null,best_case,null,null,null,,
+worstCase,span,css,.fld_worst_case.detail,null,null,null,worst_case,null,null,null,,
+type,div,css,.fld_opportunity_type.detail div,a,css,.fld_opportunity_type.edit a,type,null,null,null,,select
+leadSource,div,css,.fld_lead_source.detail div,a,css,.fld_lead_source.edit a,lead_source,null,null,null,,select
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team_name,null,null,null,,select
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit a,assigned_user_name,null,null,null,,select

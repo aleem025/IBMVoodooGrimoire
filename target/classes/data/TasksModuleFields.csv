@@ -1,0 +1,14 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue
+subject,div,css,.fld_name.detail div,input,css,.fld_name.edit input[name='name'],name,null,null,null,Please review account status,,span,css,.fld_name.preview
+startDate,span,css,.fld_date_start.detail,input,css,.fld_date_start.edit input.datepicker,date_start,null,null,null,2023-09-09T02:28:20-08:00,,span,css,.fld_date_start.preview
+dueDate,span,css,.fld_date_due.detail,input,css,.fld_date_due.edit input.datepicker,date_due,null,null,null,2023-09-17T02:28:20-08:00,,span,css,.fld_date_due.preview
+startDateTime,span,css,.fld_date_start.detail,input,css,.fld_date_start.edit input.ui-timepicker-input,null,null,null,null,null,select,span,css,.fld_date_start.preview
+dueDateTime,span,css,.fld_date_due.detail,input,css,.fld_date_due.edit input.ui-timepicker-input,null,null,null,null,null,select,span,css,.fld_date_start.preview
+priority,div,css,.fld_priority.detail div,a,css,.fld_priority.edit a,priority,null,null,null,High,select,span,css,.fld_priority.preview
+status,div,css,.fld_status.detail div,a,css,.fld_status.edit a,priority,a,css,.fld_status.massupdate a,Not Started,select,span,css,.fld_status.preview
+relRelatedToParentType,div,css,.record-label[data-name='parent_name'],a,css,.fld_parent_name.edit a,parent_type,null,null,null,,select,span,css,.fld_parent_name.preview
+relRelatedToParent,a,css,.fld_parent_name.detail a,a,css,.fld_parent_name.edit a:nth-child(2),parent_name,null,null,null,,select,span,css,.fld_parent_name.preview
+description,span,css,.fld_description.detail,textarea,css,.fld_description textarea[name='description'],description,null,null,null,,,span,css,.fld_description.preview
+contactName,span,css,.fld_contact_name.detail,a,css,.fld_contact_name.edit a,contact_name,null,null,null,null,select,span,css,.fld_contact_name.preview
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team_name,a,css,.fld_team_name.massupdate a,null,select,span,css,.fld_team_name.preview
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit a,assigned_user_name,a,css,.fld_assigned_user_name.massupdate a,null,select,span,css,.fld_assigned_user_name.preview

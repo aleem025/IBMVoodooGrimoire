@@ -1,0 +1,10 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue
+subject,div,css,.fld_name.detail div,input,css,.fld_name.edit input[name='name'],name,null,null,null,A note for you,,span,css,.fld_name.detail span
+contact,a,css,.fld_contact_name detail a,a,css,.fld_contact_name edit a,contact_id,a,css,.fld_contact_name a,,select,a,css,.fld_contact_name.detail a
+relRelatedToModule,div,css,div.record-label[data-name='parent_name'],a,css,.fld_parent_name.edit a:nth-child(1),parent_type,a,css,.fld_parent_name a:nth-child(1),,select,null,null,null
+relRelatedToValue,a,css,.fld_parent_name detail a,a,css,.fld_parent_name.edit a:nth-child(2),parent_id,a,css,.fld_parent_name a:nth-child(2),,select,a,css,.fld_parent_name.detail a
+description,span,css,.fld_description.detail,textarea,css,.fld_description.edit textarea,description,null,null,null,Please take note.,,span,css,.fld_description.detail
+attachment,a,css,.fld_filename detail a,input,css,.fld_filename.edit input,file_name,null,null,null,null,,a,css,.fld_filename.detail
+displayInPortal,input,css,.fld_portal_flag.detail input,input,css,.fld_portal_flag.edit input,portal_flag,a,css,.fld_portal_flag a,null,,input,css,.fld_portal_flag.detail
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team_id,a,css,.fld_team_name.massupdate a,null,select,div,css,.fld_team_name.detail div
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit a,assigned_user_id,a,css,.fld_assigned_user_name.massupdate a,null,select,a,css,.fld_assigned_user_name.detail a

@@ -1,0 +1,4 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+targetlistName,div,css,.fld_name div,input,css,.fld_name input[name='name'],name,null,null,null,TL_Sample1
+description,span,css,.fld_description.detail,textarea,css,.fld_description.textarea-text textarea[name='description'],description,null,null,null,TargetList sample description
+listType,div,css,.fld_list_type div,a,css,.fld_list_type a,list_type,null,null,null,Default,select

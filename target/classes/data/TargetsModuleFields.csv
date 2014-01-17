@@ -1,0 +1,13 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue,listViewDetailTag,listViewDetailStrategy,listViewDetailValue,listViewEditTag,listViewEditStrategy,listViewEditValue
+firstName,null,null,null,input,css,.fld_first_name input[name='first_name'],first_name,null,null,null,Jack,,span,css,.preview-pane span.fld_full_name,null,null,null,null,null,null
+lastName,null,null,null,input,css,.fld_last_name input[name='last_name'],last_name,null,null,null,Robinson,,span,css,.preview-pane span.fld_full_name,null,null,null,null,null,null
+account_name,div,css,.fld_account_name div,input,css,.fld_account_name input[name='account_name'],account_name,null,null,null,Google Inc.,,span,css,.preview-pane span.fld_account_name,null,null,null,null,null,null
+title,div,css,.fld_title div,input,css,.fld_title input[name='title'],title,null,null,null,Senior Sales Manager,null,null,null,null,null,null,null,null,null
+department,div,css,.fld_department div,input,css,.fld_department input[name='department'],department,null,null,null,Sales,null,null,null,null,null,null,null,null,null
+phoneMobile,div,css,.fld_phone_mobile div,input,css,.fld_phone_mobile input[name='phone_mobile'],phone_mobile,null,null,null,+1-408-655-0763,null,null,null,null,null,null,null,null,null
+phoneWork,div,css,.fld_phone_work div,input,css,.fld_phone_work input[name='phone_work'],phone_work,null,null,null,+1.408.454.6900,null,null,null,null,null,null,null,null,null
+primaryAddressStreet,div,css,.fld_primary_address_street div,input,css,.fld_primary_address_street input[name='primary_address_street'],primary_address_street,null,null,null,1 Google Way,null,null,null,null,null,null,null,null,null
+primaryAddressCity,div,css,.fld_primary_address_city div,input,css,.fld_primary_address_city input[name='primary_address_city'],primary_address_city,null,null,null,San Jose,null,null,null,null,null,null,null,null,null
+primaryAddressState,div,css,.fld_primary_address_state div,input,css,.fld_primary_address_state input[name='primary_address_state'],primary_address_state,null,null,null,CA,null,null,null,null,null,null,null,null,null
+primaryAddressPostalCode,div,css,.fld_primary_address_postalcode div,input,css,.fld_primary_address_postalcode input[name='primary_address_postalcode'],primary_address_postalcode,null,null,null,95112,null,null,null,null,null,null,null,null,null
+primaryAddressCountry,div,css,.fld_primary_address_country div,input,css,.fld_primary_address_country input[name='primary_address_country'],primary_address_country,null,null,null,USA,null,null,null,null,null,null,null,null,null

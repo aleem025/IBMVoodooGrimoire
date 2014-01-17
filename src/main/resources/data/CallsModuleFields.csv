@@ -1,0 +1,9 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+name,span,id,name,input,id,name,name,null,null,null,A Quick Sales Call,
+status,null,null,null,select,id,status,status,null,null,null,Planned,
+direction,span,id,direction,select,id,direction,direction,null,null,null,Inbound,
+date_start,span,id,date_start,input,id,date_start_date,date_start,null,null,null,2014-12-12T02:28:20-08:00,
+date_start_hours,null,null,null,select,id,date_start_hours,null,null,null,null,11,
+date_start_minutes,null,null,null,select,id,date_start_minutes,null,null,null,null,45,
+duration_hours,null,null,null,input,id,duration_hours,duration_hours,null,null,null,3,
+duration_minutes,null,null,null,select,id,duration_minutes,duration_minutes,null,null,null,45,

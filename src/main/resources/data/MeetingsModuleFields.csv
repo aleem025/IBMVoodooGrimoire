@@ -1,0 +1,7 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+name,span,id,name,input,id,name,name,null,null,null,An important Meeting,
+status,null,null,null,select,id,status,status,null,null,null,Planned,
+type,null,null,null,select,id,type,types,null,null,null,Sugar,
+date_start,span,id,date_start,input,id,date_start_date,date_start,null,null,null,11/05/2014,
+duration,null,null,null,select,id,duration,duration,null,null,null,2 hours,
+description,span,id,description,textarea,id,description,description,null,null,null,The description for an important Meeting,

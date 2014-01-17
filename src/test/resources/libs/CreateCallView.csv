@@ -1,0 +1,2 @@
+call_name,date_start,hours_start,minutes_start,meridiem_start,duration,status,description,call_type,assigned_user_name,assigned_user_name_full,team_name,team_name_full
+Call_Grimoire_test,11/11/2020,12,45,am,30,Planned,Grimoire test for call module,Outbound Call,user10,level10 (level10) user10,Administrator,Administrator

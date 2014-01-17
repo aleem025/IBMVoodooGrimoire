@@ -1,0 +1,9 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+description,span,css,.textarea-text.fld_description.detail,textarea,css,.fld_description.textarea-text textarea[name='description'],description,null,null,null,Case Description,
+resolution,span,css,.textarea-text.fld_resolution.detail,textarea,css,.fld_resolution.textarea-text textarea[name='resolution'],resolution,null,null,null,Still Open,
+name,div,css,.fld_name.detail div,input,css,.fld_name.edit input,name,null,null,null,Oh No! we have a problem,
+relAccountName,a,css,.fld_account_name.detail a,a,css,.fld_account_name.edit a,account_name,null,null,null,SugarCRM Inc.,select
+priority,div,css,.fld_priority.detail div,a,css,.fld_priority.edit,priority,null,null,null,,select
+status,div,css,.fld_status.detail div,a,css,.fld_status.edit,status,null,null,null,,select
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit,assigned_user_name,null,null,null,,select
+caseNumber,span,css,.fld_case_number.detail,null,null,null,number,null,null,null,,

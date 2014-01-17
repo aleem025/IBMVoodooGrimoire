@@ -1,0 +1,14 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type,previewTag,previewStrategy,previewValue
+name,div,css,.fld_name.detail div,input,css,.fld_name.edit input,name,null,null,null,The App is broken,,div,css,.fld_name.preview div
+description,span,css,.textarea-text.fld_description.detail,textarea,css,.textarea-text.fld_description.edit textarea[name='description'],description,null,null,null,The App is broken in three places,,span,css,.textarea-text.fld_description.preview
+priority,div,css,span.fld_priority div,a,css,.fld_priority a,priority,null,null,null,Urgent,select,div,css,.fld_priority.preview div
+type,div,css,span.fld_type div,a,css,.fld_type a,type,null,null,null,Defect,select,div,css,.fld_type.preview div
+status,div,css,span.fld_status div,a,css,.fld_status a,status,null,null,null,New,select,span,css,.fld_status.preview div
+source,div,css,span.fld_source div,a,css,.fld_source a,source,null,null,null,null,select,span,css,.fld_source.preview div
+category,div,css,span.fld_product_category div,a,css,.fld_product_category a,product_category,null,null,null,null,select,span,css,.fld_product_category.preview div
+resolution,div,css,span.fld_resolution div,a,css,.fld_resolution a,resolution,null,null,null,null,select,span,css,.fld_resolution.preview div
+work_log,span,css,.textarea-text.fld_work_log.detail,textarea,css,.textarea-text.fld_work_log.edit textarea[name='work_log'],work_log,null,null,null,A short entry in the work log,,span,css,.textarea-text.fld_work_log.preview
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit a,assigned_user_name,null,null,null,Administrator,select,a,css,.fld_assigned_user_name.preview a
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team_name,null,null,null,Global,select,div,css,.fld_team_name.preview div
+found_in_release,div,css,span.fld_found_in_release div,a,css,.fld_found_in_release a,found_in_release,null,null,null,null,select,span,css,.fld_found_in_release.preview div
+fixed_in_release,div,css,span.fld_fixed_in_release div,a,css,.fld_fixed_in_release a,fixed_in_release,null,null,null,null,select,span,css,.fld_fixed_in_release.preview div

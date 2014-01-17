@@ -1,0 +1,20 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+firstName,div,css,.fld_first_name div,input,css,.fld_first_name input[name='first_name'],first_name,null,null,null,Ran,
+lastName,div,css,.fld_last_name div,input,css,.fld_last_name input[name='last_name'],last_name,null,null,null,Zhou,
+department,div,css,.fld_department div,input,css,.fld_department input[name='department'],department,null,null,null,Engineering,
+phoneMobile,div,css,.fld_phone_mobile div,input,css,.fld_phone_mobile input[name='phone_mobile'],phone_mobile,null,null,null,+1 408.655.0761,
+phoneWork,div,css,.fld_phone_work div,input,css,.fld_phone_work input[name='phone_work'],phone_work,null,null,null,+1 408.454.9600,
+phoneFax,div,css,.fld_phone_fax div,input,css,.fld_phone_fax input[name='phone_fax'],phone_fax,null,null,null,+1 408.454.9611,
+primaryAddressStreet,div,css,.fld_primary_address_street div,input,css,.fld_primary_address_street input[name='primary_address_street'],primary_address_street,null,null,null,1234 1st Street,
+primaryAddressCity,div,css,.fld_primary_address_city div,input,css,.fld_primary_address_city input[name='primary_address_city'],primary_address_city,null,null,null,San Jose,
+primaryAddressState,div,css,.fld_primary_address_state div,input,css,.fld_primary_address_state input[name='primary_address_state'],primary_address_state,null,null,null,CA,
+primaryAddressPostalCode,div,css,.fld_primary_address_postalcode div,input,css,.fld_primary_address_postalcode input[name='primary_address_postalcode'],primary_address_postalcode,null,null,null,95112,
+primaryAddressCountry,div,css,.fld_primary_address_country div,input,css,.fld_primary_address_country input[name='primary_address_country'],primary_address_country,null,null,null,US,
+relAccountName,a,css,.fld_account_name.detail a,a,css,.fld_account_name.edit a,account_name,null,null,null,,select
+salutation,div,css,span.fld_salutation div,a,css,.fld_salutation a,salutation,null,null,null,Mr.,select
+leadSource,div,css,.fld_lead_source div,a,css,.fld_lead_source a,lead_source,null,null,null,Cold Call,select
+title,div,css,.fld_title.detail div,input,css,.fld_title.edit input,title,null,null,null,,
+description,span,css,span[data-voodoo-name='description'],textarea,css,textarea[name='description'],description,null,null,null,,
+reportsTo,a,css,.fld_report_to_name.detail a,a,css,.fld_report_to_name.edit a,report_to_name,null,null,null,,select
+relAssignedTo,a,css,.fld_assigned_user_name.detail a,a,css,.fld_assigned_user_name.edit,assigned_user_name,null,null,null,,select
+relTeam,div,css,.fld_team_name.detail div,a,css,.fld_team_name.edit a,team_name,null,null,null,Global,select

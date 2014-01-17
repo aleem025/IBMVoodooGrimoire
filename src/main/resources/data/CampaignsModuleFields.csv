@@ -1,0 +1,6 @@
+sugarField,detailHookTag,detailHookStrategy,detailHookValue,editHookTag,editHookStrategy,editHookValue,restName,massUpdateTag,massUpdateStrategy,massUpdateValue,defaultValue,type
+name,span,id,name,input,id,name,name,null,null,null,Buy our Stuff!,
+status,td,css,table#LBL_CAMPAIGN_INFORMATION tbody tr td:nth-of-type(4),select,id,status,status,null,null,null,Planning,
+campaign_type,td,css,table#LBL_CAMPAIGN_INFORMATION tbody tr:nth-of-type(2) td:nth-of-type(4),select,id,campaign_type,campaign_type,null,null,null,Telesales,
+start_date,span,id,start_date,input,id,start_date,start_date,null,null,null,12/01/2020,
+end_date,span,id,end_date,input,id,end_date,end_date,null,null,null,12/31/2020,

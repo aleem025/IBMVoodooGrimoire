@@ -1,0 +1,5 @@
+user_role,username,password,logname,full_name,first_name,last_name,email,pref_name
+admin,admin,asdf,Administrator,Administrator,admin,Administrator,asd@asd.it,admin
+bizadmin,fh-level0user0,fh-level0user0,fh-level0user0,"level0 (level0) user0 Business Administrator",level0,user0 Business Administrator,fh-level0user0@imb.com,level0
+regular_user,fh-level10user10,fh-level10user10,fh-level10user10,"level10 (level10) user10",level10,user10,fh-level10user10@imb.com,level10
+IGFRep_user,fh-level10user17,fh-level10user17,fh-level10user17,level10 (level10) user17,level10,user17,fh-level10user17@imb.com,level10
